@@ -13,7 +13,7 @@
             align-items: center;
             height: 100vh;
             font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #a6c1ee, #c9daf8);
+            background: #002342;
         }
         .container {
             text-align: center;
@@ -21,6 +21,7 @@
         h1 {
             font-size: 2.5rem;
             margin-bottom: 30px;
+            color: white;
         }
         .btn-container {
             display: flex;
@@ -41,10 +42,17 @@
         .btn:hover {
             background-color: #0056b3;
         }
+        .logo {
+            width: 100px; /* Adjust size */
+            margin-bottom: 20px;
+        }
     </style>
 </head>
 <body>
     <div class="container">
+        <!-- Add the logo here -->
+        <img src="../static/Group 1.svg" alt="Logo" class="logo">
+        
         <h1>Select a Prediction Model</h1>
         <div class="btn-container">
             <a href="/diabetes" class="btn">Diabetes Prediction</a>
